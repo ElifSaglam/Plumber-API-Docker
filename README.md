@@ -4,11 +4,11 @@
 
 ![image](https://user-images.githubusercontent.com/61660262/134141035-f8261dac-f58b-4596-a154-6c111eb70606.png)
 
-    API (Application Programming Interface) bir uygulamanın özelliklerinin, başka bir uygulama tarafından kullanılmasına imkan sunan bir arayüzdür.
-    REST (REpresentational State Transfer), istemci-sunucu arasındaki haberleşmeyi sağlayan, HTTP metotları kullanılarak isteklerde bulunup,
-    bu isteklere çeşitli formatlarda yanıt alınan esnek yapılı bir mimaridir.
+ API (Application Programming Interface) bir uygulamanın özelliklerinin, başka bir uygulama tarafından kullanılmasına imkan sunan bir arayüzdür.
+ REST (REpresentational State Transfer), istemci-sunucu arasındaki haberleşmeyi sağlayan, HTTP metotları kullanılarak isteklerde bulunup,
+ bu isteklere çeşitli formatlarda yanıt alınan esnek yapılı bir mimaridir.
 
-    **Plumber,** mevcut R kodlarını API yazım formatına uyarlayarak bir web hizmeti olarak sunmaya izin veren ve REST API yazımı için kullanılan R kütüphanesidir. Plumber, R’da yapılan işlemlerin diğer platformlarda veya programlama dillerinden kullanma imkanını sunar. Plumber ile R’da yapılan analiz veya görselleştirmelerinizi bir web uygulamasına entegre edebilirsiniz.
+**Plumber,** mevcut R kodlarını API yazım formatına uyarlayarak bir web hizmeti olarak sunmaya izin veren ve REST API yazımı için kullanılan R kütüphanesidir. Plumber, R’da yapılan işlemlerin diğer platformlarda veya programlama dillerinden kullanma imkanını sunar. Plumber ile R’da yapılan analiz veya görselleştirmelerinizi bir web uygulamasına entegre edebilirsiniz.
 
 R’da API yazmak için plumber dosyasının aşağıdaki resimde görüldüğü gibi eklenmesi gerekir.
 
