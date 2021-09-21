@@ -1,4 +1,3 @@
-# Plumber
 
 ## R ile REST API Nasıl Yazılır ?
 
@@ -30,8 +29,8 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     # * getPng 
     # * @png 
     # * @get / png 
+    
     function () { 
-
       attack_type_data <- turkey_data%>% 
         select (attacktype1_txt)%>% 
         filter (attacktype1_txt! = "Unknown")%>% 
@@ -55,6 +54,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     # * getPdf 
     # * @serializer contentType list (type = "application / pdf") 
     # * @get / pdf 
+    
     function () { 
       attack_type_data <- turkey_data%>% 
                           select (attacktype1_txt)%>% 
@@ -100,6 +100,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     # * getJson 
     # * @serializer contentType list (type = "application / json") 
     # * @get / json 
+    
     function () { 
       attack_type_data <- turkey_data%>% 
         select (attacktype1_txt)%>% 
@@ -117,6 +118,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     # * getLeaflet 
     # * @serializer htmlwidget 
     # * @get / leaflet 
+    
     function () { 
       leaflet ()%>% 
         addTiles ()%>% 
@@ -130,6 +132,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     # * deleteMethod 
     # * @serializer contentType list (type = "application / json") 
     # * @delete / deleteMethod 
+    
     function (attack_type) { 
       attack_type_data <- turkey_data%>% 
         select (attacktype1_txt)%>% 
@@ -150,6 +153,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     # * updateMethod 
     # * @serializer contentType list (type = "application / json") 
     # * @put / updateMethod 
+    
     function (attack_type, countValue) { 
       countValue <- as.numeric (countValue) 
       attack_type_data <- turkey_data%>% 
