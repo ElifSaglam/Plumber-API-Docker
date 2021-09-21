@@ -168,35 +168,37 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     }
 
 
-
-![image](https://user-images.githubusercontent.com/61660262/134141977-ad3b5a3f-c0db-4723-98dc-cbb810e64e13.png)
 ##### Swagger Dokümantasyonu
+![image](https://user-images.githubusercontent.com/61660262/134141977-ad3b5a3f-c0db-4723-98dc-cbb810e64e13.png)
 
 Yazılan kodların çalıştırılması ile Swagger ekranı açılır. Bu ekranda metodların çalıştırılması ile kodların testi yapılabilir.
 
-![image](https://user-images.githubusercontent.com/61660262/134142213-bb0da0ae-494a-48a6-a88d-01abd56fbca2.png)
 ##### GET İşlemi
+![image](https://user-images.githubusercontent.com/61660262/134142213-bb0da0ae-494a-48a6-a88d-01abd56fbca2.png)
 
 Swagger ekranında ilgili metod seçilerek Execute butonuna tıklanarak sonuç görüntülenebilir. Server response kısmında 200 dönmesi metodun başarılı olduğunu göstermektedir.
 
-![image](https://user-images.githubusercontent.com/61660262/134142306-c8cb6f85-b6b2-49cb-987f-db55e2ad36c6.png)
 ##### GET İşlemi Sonucu
+![image](https://user-images.githubusercontent.com/61660262/134142306-c8cb6f85-b6b2-49cb-987f-db55e2ad36c6.png)
 
-![image](https://user-images.githubusercontent.com/61660262/134142378-2c9eae74-0ea9-4107-95c9-bb0e7058c907.png)
 ##### Delete İşlemi
+![image](https://user-images.githubusercontent.com/61660262/134142378-2c9eae74-0ea9-4107-95c9-bb0e7058c907.png)
+
 Delete metodunda fonksiyondaki parametreye göre girilen değer veri içinden silinir, verinin son hali elde edilir.
 
-![image](https://user-images.githubusercontent.com/61660262/134142449-2ee4af34-ed06-43a5-ad1d-1bb8e4694a17.png)
 ##### Delete İşlemi Sonucu
-                      
+![image](https://user-images.githubusercontent.com/61660262/134142449-2ee4af34-ed06-43a5-ad1d-1bb8e4694a17.png)
+ 
+ ##### Update İşlemi
 ![image](https://user-images.githubusercontent.com/61660262/134142491-91e872d1-1095-491a-97bc-a13c61cde1a9.png)                   
-##### Update İşlemi
+
 Put metodunda fonksiyondaki parametreye göre girilen değer veri içinde güncellenir, verinin son hali elde edilir.
 
-![image](https://user-images.githubusercontent.com/61660262/134142534-ad91f122-6450-4aed-b3e7-d4c847ae36fd.png)
 ##### Update İşlemi Sonucu
+![image](https://user-images.githubusercontent.com/61660262/134142534-ad91f122-6450-4aed-b3e7-d4c847ae36fd.png)
                           
 Ek olarak **Request URL** ile tarayıcıdan da sonuçları görebilirsiniz.
 
-![image](https://user-images.githubusercontent.com/61660262/134142568-d17902c8-5db0-42d9-a182-82dd300f5a60.png)
 ##### Request Url ile tarayıcıdan dönen sonuç
+![image](https://user-images.githubusercontent.com/61660262/134142568-d17902c8-5db0-42d9-a182-82dd300f5a60.png)
+
