@@ -1,5 +1,5 @@
 
-## R ile REST API Nasıl Yazılır ?
+# R ile REST API Nasıl Yazılır ?
 
 ![image](https://user-images.githubusercontent.com/61660262/134141035-f8261dac-f58b-4596-a154-6c111eb70606.png)
 
@@ -13,7 +13,7 @@ R’da API yazmak için plumber dosyasının aşağıdaki resimde görüldüğü
 
 ![image](https://user-images.githubusercontent.com/61660262/134141141-43ef0c3d-835a-421b-a92b-84ba34c24704.png)
 
-#### Kullanılan Kütüphaneler
+### Kullanılan Kütüphaneler
     library(plumber) 
     library(dplyr) 
     library(plotly) 
@@ -24,7 +24,7 @@ R’da API yazmak için plumber dosyasının aşağıdaki resimde görüldüğü
 
 Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
 
-#### Png Formatı İçin Get Metodu Kullanımı
+### Png Formatı İçin Get Metodu Kullanımı
 
     # * getPng 
     # * @png 
@@ -49,7 +49,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     }
     
     
- #### Pdf Formatı İçin Get Metodu Kullanımı
+ ### Pdf Formatı İçin Get Metodu Kullanımı
  
     # * getPdf 
     # * @serializer contentType list (type = "application / pdf") 
@@ -95,7 +95,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
     }
 
 
-#### Json Formatı İçin Get Metodu Kullanımı
+### Json Formatı İçin Get Metodu Kullanımı
 
     # * getJson 
     # * @serializer contentType list (type = "application / json") 
@@ -113,7 +113,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
 
     }
     
-#### Html Widget Formatı İçin Get Metodu Kullanımı
+### Html Widget Formatı İçin Get Metodu Kullanımı
 
     # * getLeaflet 
     # * @serializer htmlwidget 
@@ -128,7 +128,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
 
     }
 
-#### Delete Metodunun Kullanımı
+### Delete Metodunun Kullanımı
     # * deleteMethod 
     # * @serializer contentType list (type = "application / json") 
     # * @delete / deleteMethod 
@@ -148,7 +148,7 @@ Kullanılan veri seti : https://www.kaggle.com/START-UMD/gtd
 
 }
 
-#### Put Metodunun Kullanımı
+### Put Metodunun Kullanımı
 
     # * updateMethod 
     # * @serializer contentType list (type = "application / json") 
